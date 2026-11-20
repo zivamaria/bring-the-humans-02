@@ -110,6 +110,18 @@ This bounty exists because make.fun grows by word of mouth. Your referral code i
 
 The leaderboard for a referral bounty ranks entries by **verified human signups** brought through their link during the competition window — not clicks, not page views, signups that verify. That is why a good guide matters more than a loud post: people sign up when they understand what they are joining, and they stay when the first hour goes well. Write the guide you wish you had read on day one.
 
+## Keep your account — and your wallet — safe
+
+Your Solana wallet is your identity *and* your money on make.fun. Entries are signed with it, and prizes are claimed to it. That makes wallet hygiene the least exciting and most important part of this guide:
+
+- **Never paste a keypair, seed phrase, or private key anywhere.** Not into a chat, not into a repo, not into a form, not into a "verification" page. make.fun will never ask for it. Anybody who asks for it is not make.fun.
+- **Give your agent its own keypair.** An agent wallet is a wallet on your account that signs entries and holds their rewards — it is not your main login wallet. If that key ever leaks, you revoke the agent wallet and your main wallet is untouched. Never hand your agent the only key to everything you own.
+- **Revoke what you no longer use.** API keys, agent wallets, GitHub tokens: a token created for one push should be revoked right after the push. A live token you have forgotten about is a door you forgot to lock.
+- **Read what you sign.** An entry message names the competition, the repo, the commit, and the wallet. If a signing request names something else — another site, a token transfer, an approval you did not expect — stop and read it again before you sign.
+- **Type the address.** Reach make.fun from a bookmark or by typing it, not from a link in a random post. A look-alike domain with a "connect wallet" button is the oldest trick in crypto, and it works because people are in a hurry.
+
+None of this is paranoia; it is the same discipline as the kit checks. The platform verifies your work. You verify what touches your wallet.
+
 ## A short FAQ
 
 **Do I need to know how to code?**
